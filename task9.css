@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+
+}
+.container{
+    border: 2px solid red;
+    width: 100%;
+    
+    background-color: rgb(54, 54, 181);
+}
+
+.logo{
+    border: 2px solid black;
+    width: 12%;
+    height: 100px;
+    margin: 15px 0px 15px 15px;
+    background-color: brown;
+    float: left;
+}
+.logo .circle{
+    border: 2px solid white;
+    width: 80%;
+    height: 70px;
+    margin: 15px 15px 0 15px;
+    border-radius: 100%;
+}
+.header{
+    border: 2px solid white;
+    width: 85%;
+    height: 100px;
+    margin: 15px 15px 0 0px;
+    background-color: blue;
+    float: right;
+    
+}
+
+.main-cotainer{
+    margin-top: 100px;
+    width: 100%;
+   min-height: 500px;
+   
+}
+ .main-cotainer .left-cotainer{
+    border: 2px solid white;
+    margin:  15px 15px 0 15px;
+    width: 20%;
+    min-height: 450px;
+	float: left;
+	margin-left:-180px;
+    
+}
+.right-cotainer{
+	
+    margin:  15px 15px 0 15px;
+    width: 75%;
+    min-height: 450px;
+	float: right;
+	
+}
+.right-cotainer .first-right{
+	border: 2px solid white;
+    margin:  10px 15px 0 15px;
+    width: 98%;
+    min-height: 135px;
+}
+.right-cotainer .secound-right{
+	border: 2px solid white;
+    margin:  15px 15px 0 15px;
+    width: 98%;
+    min-height: 135px;
+}
+.right-cotainer .third-right{
+	border: 2px solid white;
+    margin:  15px 15px 0 15px;
+    width: 98%;
+    min-height: 135px;
+} 
+
+ 
+.black{
+	width:98%;
+	height: 450px;
+	margin: 10px;
+	border: 2px solid white;
+	background-color: black;
+}
+.black .blue{
+	width:98%;
+	height: 400px;
+	margin: 20px;
+	border: 2px solid white;
+	background-color: blue;
+}
+.green {
+	width:98%;
+	height: 350px;
+	margin: 20px;
+	border: 2px solid white;
+	background-color: green;
+}
+.yellow {
+	width:98%;
+	padding:10px;
+	height: 300px;
+	margin: 20px;
+	border: 2px solid white;
+	background-color: yellow;
+}
+
